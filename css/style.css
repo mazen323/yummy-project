@@ -1,0 +1,118 @@
+.logo img{
+    height: 48px;
+}
+body{
+    background-color: #000000f2;
+}
+
+.nav{
+    height: 100vh;
+    width: 60px;
+    background-color: #f8f6f6;
+    text-align: center;
+    transition: all 0.8s ease;
+        left: -11px;
+    z-index: 55555555;
+}
+.loading{
+    inset: 0;
+    background-color: #000;
+    z-index: 99999;
+}
+ i{
+    cursor: pointer;
+}
+nav{
+    background-color: #000000;
+    top: 0;
+    left: 0px;
+    width: 0px;
+    height: 100vh;
+    z-index: 55555555;
+    transition: all 0.8s ease;
+}
+
+.content ul li{
+    list-style-type: none;
+    padding-bottom: 20px;
+    
+}
+.content{
+    transition: all .5s ;
+}
+.content ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+.nav-social{
+    bottom: 50px;
+    left: 20px;
+    transition: all .4s;
+}
+.nav-social a{
+    text-decoration: none;
+    color: rgb(41, 40, 40);
+    
+}
+.nav-social i{
+    padding-left: 10px;
+    color: white;
+}
+.content span{
+    color: white;
+    
+    text-align: center;
+}
+
+.post{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.9);
+    top: 100%;
+    opacity: 0;
+    left: 0;
+    transition: all 1s;
+}
+.img-meal{
+    overflow: hidden;
+    cursor: pointer;
+}
+.img-meal:hover .post{
+    top: 0;
+    opacity: 1;
+}
+#recipes li{
+    list-style-type: none;
+    background-color:#cff4fc;
+    color: #055160;
+    border: #b6effb;
+}
+#tags li{
+    list-style-type: none;
+    background-color: #f8d7da;
+    color: #842029;
+}
+.back{
+    left: 12.5%;
+    z-index: 999;
+    top: 0;
+    padding-top: 30px;
+    background-color: #0D0D0D;
+}
+
+
+#sea input{
+    background-color: transparent;
+    color: #fff;
+    z-index: 9999;
+}
+
+.contact input{
+    margin: auto;
+}
+.alert{
+    background-color: #f8d7da;
+    color: #842029;
+    border: #f5c2c7;
+}
